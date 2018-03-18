@@ -96,10 +96,6 @@ class ComposerStaticInitbdc3716ceecc7570f8ff9a8407f0ca0e
             array (
                 0 => __DIR__ . '/..' . '/fguillot/simple-validator/src',
             ),
-            'SimpleLogger' => 
-            array (
-                0 => __DIR__ . '/..' . '/fguillot/simpleLogger/src',
-            ),
         ),
         'P' => 
         array (
@@ -436,6 +432,8 @@ class ComposerStaticInitbdc3716ceecc7570f8ff9a8407f0ca0e
         'Kanboard\\Core\\Group\\GroupProviderInterface' => __DIR__ . '/../..' . '/app/Core/Group/GroupProviderInterface.php',
         'Kanboard\\Core\\Helper' => __DIR__ . '/../..' . '/app/Core/Helper.php',
         'Kanboard\\Core\\Http\\Client' => __DIR__ . '/../..' . '/app/Core/Http/Client.php',
+        'Kanboard\\Core\\Http\\ClientException' => __DIR__ . '/../..' . '/app/Core/Http/ClientException.php',
+        'Kanboard\\Core\\Http\\InvalidStatusException' => __DIR__ . '/../..' . '/app/Core/Http/InvalidStatusException.php',
         'Kanboard\\Core\\Http\\OAuth2' => __DIR__ . '/../..' . '/app/Core/Http/OAuth2.php',
         'Kanboard\\Core\\Http\\RememberMeCookie' => __DIR__ . '/../..' . '/app/Core/Http/RememberMeCookie.php',
         'Kanboard\\Core\\Http\\Request' => __DIR__ . '/../..' . '/app/Core/Http/Request.php',
@@ -450,6 +448,13 @@ class ComposerStaticInitbdc3716ceecc7570f8ff9a8407f0ca0e
         'Kanboard\\Core\\Ldap\\Group' => __DIR__ . '/../..' . '/app/Core/Ldap/Group.php',
         'Kanboard\\Core\\Ldap\\Query' => __DIR__ . '/../..' . '/app/Core/Ldap/Query.php',
         'Kanboard\\Core\\Ldap\\User' => __DIR__ . '/../..' . '/app/Core/Ldap/User.php',
+        'Kanboard\\Core\\Log\\Base' => __DIR__ . '/../..' . '/app/Core/Log/Base.php',
+        'Kanboard\\Core\\Log\\File' => __DIR__ . '/../..' . '/app/Core/Log/File.php',
+        'Kanboard\\Core\\Log\\Logger' => __DIR__ . '/../..' . '/app/Core/Log/Logger.php',
+        'Kanboard\\Core\\Log\\Stderr' => __DIR__ . '/../..' . '/app/Core/Log/Stderr.php',
+        'Kanboard\\Core\\Log\\Stdout' => __DIR__ . '/../..' . '/app/Core/Log/Stdout.php',
+        'Kanboard\\Core\\Log\\Syslog' => __DIR__ . '/../..' . '/app/Core/Log/Syslog.php',
+        'Kanboard\\Core\\Log\\System' => __DIR__ . '/../..' . '/app/Core/Log/System.php',
         'Kanboard\\Core\\Mail\\Client' => __DIR__ . '/../..' . '/app/Core/Mail/Client.php',
         'Kanboard\\Core\\Mail\\ClientInterface' => __DIR__ . '/../..' . '/app/Core/Mail/ClientInterface.php',
         'Kanboard\\Core\\Mail\\Transport\\Mail' => __DIR__ . '/../..' . '/app/Core/Mail/Transport/Mail.php',
@@ -870,12 +875,6 @@ class ComposerStaticInitbdc3716ceecc7570f8ff9a8407f0ca0e
         'Psr\\Log\\NullLogger' => __DIR__ . '/..' . '/psr/log/Psr/Log/NullLogger.php',
         'Psr\\Log\\Test\\DummyTest' => __DIR__ . '/..' . '/psr/log/Psr/Log/Test/LoggerInterfaceTest.php',
         'Psr\\Log\\Test\\LoggerInterfaceTest' => __DIR__ . '/..' . '/psr/log/Psr/Log/Test/LoggerInterfaceTest.php',
-        'SimpleLogger\\Base' => __DIR__ . '/..' . '/fguillot/simpleLogger/src/SimpleLogger/Base.php',
-        'SimpleLogger\\File' => __DIR__ . '/..' . '/fguillot/simpleLogger/src/SimpleLogger/File.php',
-        'SimpleLogger\\Logger' => __DIR__ . '/..' . '/fguillot/simpleLogger/src/SimpleLogger/Logger.php',
-        'SimpleLogger\\Stderr' => __DIR__ . '/..' . '/fguillot/simpleLogger/src/SimpleLogger/Stderr.php',
-        'SimpleLogger\\Stdout' => __DIR__ . '/..' . '/fguillot/simpleLogger/src/SimpleLogger/Stdout.php',
-        'SimpleLogger\\Syslog' => __DIR__ . '/..' . '/fguillot/simpleLogger/src/SimpleLogger/Syslog.php',
         'SimpleQueue\\Adapter\\AmqpQueueAdapter' => __DIR__ . '/..' . '/fguillot/simple-queue/src/Adapter/AmqpQueueAdapter.php',
         'SimpleQueue\\Adapter\\AwsSqsQueueAdapter' => __DIR__ . '/..' . '/fguillot/simple-queue/src/Adapter/AwsSqsQueueAdapter.php',
         'SimpleQueue\\Adapter\\BeanstalkQueueAdapter' => __DIR__ . '/..' . '/fguillot/simple-queue/src/Adapter/BeanstalkQueueAdapter.php',
